@@ -1902,3 +1902,34 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* New styles */
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.alink{
+  cursor: pointer;
+  display: inline;
+}
+
+
+.website{
+  transition: all .5s ease;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 6px;
+    outline: none;
+    border-radius:3 px;
+}
+
+.website:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+
